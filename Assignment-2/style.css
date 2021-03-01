@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ccd4da;
+  display: flex;
+  justify-content: center;
+}
+body::-webkit-scrollbar {
+  width: 0em;
+}
+.container {
+  background: #f5f8fa;
+  height: 99vh;
+  width: 100vw;
+  max-width: 500px;
+  overflow-y: scroll;
+  border-radius: 20px;
+}
+.container::-webkit-scrollbar {
+  width: 0em;
+}
+dl {
+  margin-top: 0;
+}
+dl dt {
+  position: sticky;
+  top: 0px;
+  background: #48cae4;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+.contact-groups {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.contact-groups .avatar {
+  color: #fff;
+  background-color: #48cae4;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.contact-groups dd {
+  margin-left: 15px;
+}
